@@ -13,6 +13,7 @@
     --text-light: #666;
     --white: #ffffff;
     --bg-light: #6ab3e477;
+    --bg-green:#25d366;
 }
 
 /* Estilos Base */
@@ -100,7 +101,8 @@ nav {
 
 .cta-button {
     display: inline-block;
-    background: var(--primary-color);
+    /* background: var(--primary-color); */
+    background: var(--bg-green);
     color: var(--white);
     padding: 15px 40px;
     border-radius: 50px;
@@ -109,12 +111,16 @@ nav {
     transition: all 0.3s;
     animation: fadeInUp 1s ease 0.4s;
     animation-fill-mode: both;
-    box-shadow: 0 4px 15px rgba(92, 141, 239, 0.3);
+    /* box-shadow: 0 4px 15px rgba(92, 141, 239, 0.3); */
+    box-shadow: 0 6px 20px rgba(29, 74, 14, 0.4);
 }
 
 .cta-button:hover {
     transform: translateY(-3px);
-    box-shadow: 0 6px 20px rgba(14, 38, 74, 0.4);
+    font-size: 1.1rem;
+    box-shadow: 0 6px 20px rgba(29, 74, 14, 0.4);
+    
+  
 }
 
 /* ===== ANIMAÇÕES ===== */
@@ -168,7 +174,8 @@ nav {
 
 .service-icon {
     font-size: 3rem;
-    color: var(--primary-color);
+    /* color: var(--primary-color); */
+    color: black;
     margin-bottom: 1rem;
 }
 
