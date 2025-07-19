@@ -94,7 +94,9 @@ nav {
   color: var(--text-dark);
   animation: fadeInUp 1s ease;
 }
-
+.hero img{
+    animation: fadeInUp 1s ease;
+}
 .hero p {
   font-size: 1.2rem;
   margin-bottom: 2rem;
